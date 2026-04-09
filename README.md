@@ -5,4 +5,4 @@ BCA Student | Web Developer
 ---
 
 ## 📌 Note
-This project is created for learning and internship purposes.
+This project is created for learning purposes.
