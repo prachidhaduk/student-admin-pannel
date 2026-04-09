@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#"  AutoEventWireup="true" CodeBehind="student_pannelMaster.master.cs" Inherits="student_admin_pannel.student_pannelMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Admin Panel</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table width="100%">
+            <tr>
+                <td width="12%">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/logo.jpg" Height="108px" Width="131px" />
+                </td>
+                <th>
+                    <h1 align="center">Dr.Subhash University Admin Panel</h1>
+            
+                </th>
+                <td>
+                    admin welcome
+                </td>
+                 <td>
+                 </td>
+            </tr>
+        </table>
+        <table width="100%">
+            <tr>
+                <th style="color: #808080; font-weight: bolder; font-size: x-large;">
+                    Admin Pannel
+                </th>
+                <td>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/dashboard.aspx">Dashboard</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/student_add.aspx">Student ADD</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/course_add.aspx">Course ADD</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/subject.aspx">Subject ADD</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/dept_add.aspx">Department ADD</asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+        
+        <table width ="100%">
+            <tr>
+                <td width="100%">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table width="100%">
+            <tr>
+                <td>
+                    <h3 align="center">
+                            Dr.Subhash University - Junagadh
+                    </h3>
+                </td>
+            </tr>
+        </table>    
+        
+    </form>
+</body>
+</html>
