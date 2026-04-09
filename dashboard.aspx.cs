@@ -77,23 +77,5 @@ namespace student_admin_pannel
 
             GridViewDept.Visible = true;
         }
-
-        //protected void GridViewStudent_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-
-        //}
-
-        //protected void GridViewStudent_RowDeleting(object sender, GridViewDeleteEventArgs e)
-        //{
-        //    int id = Convert.ToInt32(GridViewStudent.DataKeys[e.RowIndex].Value);
-        //    string query = "DELETE FROM Student WHERE Id=" + id;
-
-        //    SqlConnection con = new SqlConnection("your_connection_string");
-        //    SqlCommand cmd = new SqlCommand(query, con);
-
-        //    con.Open();
-        //    cmd.ExecuteNonQuery();
-        //    con.Close();
-        //}
     }
 }
