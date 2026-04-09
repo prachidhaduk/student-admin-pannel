@@ -28,12 +28,7 @@
         </tr>
         <tr>
             <td colspan="4" width="100%" align="center">
-                <asp:GridView ID="GridViewStudent" runat="server">
-                    <Columns>
-                        <asp:ButtonField ButtonType="Button" CommandName="Delete" Text="Delete" ControlStyle-CssClass="alert-danger" />
-                        <asp:ButtonField ButtonType="Button" CommandName="Update" Text="Edit" ControlStyle-CssClass="alert-primary" />
-                    </Columns>
-                </asp:GridView>
+                <asp:GridView ID="GridViewStudent" runat="server"></asp:GridView>
             
                 <asp:GridView ID="GridViewCourse" runat="server"></asp:GridView>
             
